@@ -9,7 +9,7 @@ export const getCards = async () => {
     }
   };
   
-  export const getCard = async (id) => {
+  export const getCard = async () => {
     try {
       const response = await fetch(`http://localhost:8080/test/${id}`);
       const data = await response.json();

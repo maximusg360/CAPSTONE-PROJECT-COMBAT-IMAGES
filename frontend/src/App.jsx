@@ -51,7 +51,7 @@ function App() {
       <Route path="/About" element={<About/>} />
       {/* <Route path="/Pic" element={<Pic/>} /> */}
       <Route path="/Gallery" element={<Gallery mydata={mydata}/>} />
-      <Route path="/SingleImages" element={<SingleImagesView />} />
+      <Route path="/SingleImages/{id}" element={<SingleImagesView />} />
       </Routes>
     
 

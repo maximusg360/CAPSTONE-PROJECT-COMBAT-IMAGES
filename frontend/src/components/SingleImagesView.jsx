@@ -13,15 +13,15 @@ const SingleImagesView = () => {
   const [isConfirmOpen, setIsConfirmOpen] = useState(false);
 
   useEffect(() => {
-    async function fetchCard() {
-      const item = await getCards();
+    async function fetchCard(id) {
+      const item = await getCards(id);
       setCard(item);
     }
     fetchCard();
   }, []);
 
 
-//   const { id } = useParams();
+  const { id } = useParams();
   const navigate = useNavigate();
 
 //   useEffect(() => {

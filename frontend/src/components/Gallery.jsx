@@ -25,7 +25,7 @@ function Gallery({ mydata }) {
             <p>bkwjdbcksbdshbjhsbvjshfvb</p>
           </div>
         ))}
-        <Link to="/SingleImages"><button className='bg-black'>Hello WOrld</button></Link>
+        <Link to="/SingleImages/{id}"><button className='bg-black'>Hello WOrld</button></Link>
       </div>
       
     </div>
