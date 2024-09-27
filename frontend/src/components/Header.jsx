@@ -18,7 +18,7 @@ function Header() {
 
   return (
     <>
-    <header className="bg-gray-800 text-white">
+    <header className=" bg-opacity-30 bg-gray-500 text-white">
       {/* <nav className="container mx-auto p-4 flex justify-between items-center">
         <a href="" className="text-2xl font-bold">Combat Images</a>
         <div className="md:hidden" onClick={toggleMenu}>
@@ -42,7 +42,7 @@ function Header() {
         </ul>
       </nav> */}
 
-<nav className="bg-gray-800 p-4">
+<nav className="relative flex items -center  p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl">Combat Images</div>
         <div className="md:hidden">

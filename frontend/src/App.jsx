@@ -11,6 +11,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Welcome from "./components/Welcome";
  import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SingleImagesView from "./components/SingleImagesView";
 
 function App() {
   
@@ -23,8 +24,6 @@ function App() {
   useEffect(()=>{
     async function fetchImageData(){
         try {
-
-          // http://localhost:8080/test/{}
 
           const response = await fetch("http://localhost:8080/test");
           const data = await response.json()
@@ -52,7 +51,7 @@ function App() {
       <Route path="/About" element={<About/>} />
       {/* <Route path="/Pic" element={<Pic/>} /> */}
       <Route path="/Gallery" element={<Gallery mydata={mydata}/>} />
-
+      <Route path="/SingleImages" element={<SingleImagesView />} />
       </Routes>
     
 

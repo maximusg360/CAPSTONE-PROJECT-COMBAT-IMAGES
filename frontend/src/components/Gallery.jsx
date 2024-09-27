@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import App from '../App';
+import { Link } from 'react-router-dom';
 
 
 
@@ -9,12 +10,13 @@ function Gallery({ mydata }) {
 
   return (
     <>
-
+    
     <div className="container mx-auto p-4">
       <h1 className="text-5xl font-extrabold ">
         Combat Images
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      
         {mydata.map((item, index) => (
           <div key={index} className="bg-white p-4 rounded-lg shadow-md">
             <img src={item.image_url} alt={item.title} className="w-full h-auto rounded-lg" />
@@ -23,10 +25,12 @@ function Gallery({ mydata }) {
             <p>bkwjdbcksbdshbjhsbvjshfvb</p>
           </div>
         ))}
+        <Link to="/SingleImages"><button className='bg-black'>Hello WOrld</button></Link>
       </div>
+      
     </div>
       
-
+    
   </>
   );
 }

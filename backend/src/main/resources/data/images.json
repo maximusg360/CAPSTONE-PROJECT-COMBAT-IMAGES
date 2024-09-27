@@ -5,6 +5,7 @@
     "description": "Conor Mcgregor as he makes his entrance",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/1_svqxcn.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 1,
       "username": "user1",
@@ -26,6 +27,7 @@
     "description": "Floyd Mayweather as he makes his entrance ",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/2_yln2so.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 2,
       "username": "user2",
@@ -47,6 +49,7 @@
     "description": "Description for images 3",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/5_cld4mq.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 3,
       "username": "user3",
@@ -68,6 +71,7 @@
     "description": "Description for images 4",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/3_yrbfw9.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 4,
       "username": "user4",
@@ -89,6 +93,7 @@
     "description": "Description for images 5",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/6_yuemeb.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 5,
       "username": "user5",
@@ -110,6 +115,7 @@
     "description": "Description for images 6",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 6,
       "username": "user6",
@@ -131,6 +137,7 @@
     "description": "Description for images 7",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 1,
       "username": "user7",
@@ -152,6 +159,7 @@
     "description": "Description for images 8",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364025/15_jydydw.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 8,
       "username": "user8",
@@ -173,6 +181,7 @@
     "description": "Description for images 9",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 9,
       "username": "user9",
@@ -194,6 +203,7 @@
     "description": "Description for images 10",
     "weight_class": 180,
     "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 10,
       "username": "user1",

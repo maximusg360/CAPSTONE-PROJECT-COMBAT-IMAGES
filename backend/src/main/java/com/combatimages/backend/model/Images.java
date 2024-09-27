@@ -18,6 +18,7 @@ public class Images {
     private String description;
     private Integer weight_class;
     private String image_url;
+    private String event_name;
 
     @ManyToOne
     @JoinColumn(name = "creator_id", nullable = false)
