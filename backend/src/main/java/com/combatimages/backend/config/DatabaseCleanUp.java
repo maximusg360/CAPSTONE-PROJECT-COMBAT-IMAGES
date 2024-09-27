@@ -42,10 +42,11 @@ public class DatabaseCleanUp {
 
                 statement.executeUpdate("SET FOREIGN_KEY_CHECKS = 0");
 
-                statement.executeUpdate("DROP TABLE IF EXIST user");
-                statement.executeUpdate("DROP TABLE IF EXIST roles");
-                statement.executeUpdate("DROP TABLE IF EXIST user_roles");
-                statement.executeUpdate("DROP TABLE IF EXIST role_users");
+                statement.executeUpdate("DROP TABLE IF EXISTS user");
+                statement.executeUpdate("DROP TABLE IF EXISTS roles");
+                statement.executeUpdate("DROP TABLE IF EXISTS user_roles");
+                statement.executeUpdate("DROP TABLE IF EXISTS role_users");
+                statement.executeUpdate("DROP TABLE IF EXISTS images");
 
                 statement.executeUpdate("SET FOREIGN_KEY_CHECKS = 1");
 

@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Image name 1",
-    "description": "Description for images 1",
+    "description": "Conor Mcgregor as he makes his entrance",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/1_svqxcn.jpg",
     "creator": {
       "id": 1,
       "username": "user1",
@@ -23,9 +23,9 @@
   {
     "id": 2,
     "name": "Image name 2",
-    "description": "Description for images 2",
+    "description": "Floyd Mayweather as he makes his entrance ",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/2_yln2so.jpg",
     "creator": {
       "id": 2,
       "username": "user2",
@@ -46,7 +46,7 @@
     "name": "Image name 3",
     "description": "Description for images 3",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/5_cld4mq.jpg",
     "creator": {
       "id": 3,
       "username": "user3",
@@ -67,7 +67,7 @@
     "name": "Image name 4",
     "description": "Description for images 4",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/3_yrbfw9.jpg",
     "creator": {
       "id": 4,
       "username": "user4",
@@ -88,7 +88,7 @@
     "name": "Image name 5",
     "description": "Description for images 5",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/6_yuemeb.jpg",
     "creator": {
       "id": 5,
       "username": "user5",
@@ -109,7 +109,7 @@
     "name": "Image name 6",
     "description": "Description for images 6",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
     "creator": {
       "id": 6,
       "username": "user6",
@@ -130,7 +130,7 @@
     "name": "Image name 7",
     "description": "Description for images 7",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
     "creator": {
       "id": 1,
       "username": "user7",
@@ -151,7 +151,7 @@
     "name": "Image name 8",
     "description": "Description for images 8",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364025/15_jydydw.jpg",
     "creator": {
       "id": 8,
       "username": "user8",
@@ -172,7 +172,7 @@
     "name": "Image name 9",
     "description": "Description for images 9",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
     "creator": {
       "id": 9,
       "username": "user9",
@@ -193,7 +193,7 @@
     "name": "Image name 10",
     "description": "Description for images 10",
     "weight_class": 180,
-    "image_url": "http://example.com/image1.png",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
     "creator": {
       "id": 10,
       "username": "user1",
