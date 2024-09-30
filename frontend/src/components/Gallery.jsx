@@ -1,37 +1,55 @@
-import React from 'react';
-import Header from './Header';
-import App from '../App';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
+// Helper function to chunk the data array into groups of 4
+const chunkArray = (array, chunkSize) => {
+  const result = [];
+  for (let i = 0; i < array.length; i += chunkSize) {
+    result.push(array.slice(i, i + chunkSize));
+  }
+  return result;
+};
 
+function Gallery() {
+  const [myData, setMyData] = useState([]);
+  const navigate = useNavigate();
 
+  useEffect(() => {
+    callGallery();
+  }, []);
 
-function Gallery({ mydata }) {
+  const callGallery = async () => {
+    let response = await axios.get("http://localhost:8080/images");
+    let data = await response.data;
+    setMyData(data);
+    console.log(data);
+  };
+
+  const chunkedData = chunkArray(myData, 3); // Group myData into sets of 4
 
   return (
-    <>
-    
     <div className="container mx-auto p-4">
-      <h1 className="text-5xl font-extrabold ">
-        Combat Images
-      </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      
-        {mydata.map((item, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-            <img src={item.image_url} alt={item.title} className="w-full h-auto rounded-lg" />
-            <h2 className="text-xl font-bold mb-2">{item.title}</h2>
-            <p className="text-gray-700 mb-4">{item.description}</p>
-            <p>bkwjdbcksbdshbjhsbvjshfvb</p>
+      <h1 className="text-4xl font-extrabold">Combat Images</h1>
+      <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
+        
+        {chunkedData.map((chunk, index) => (
+          <div key={index} className="grid gap-4">
+            {chunk.map((item, i) => (
+              <div key={i}>
+                <img
+                  onClick={() => navigate(`/SingleImages/${item.id}`)}
+                  className="h-72 w-full rounded-3xl object-cover cursor-pointer"
+                  src={item.image_url}
+                  alt="gallery-photo"
+                />
+              </div>
+              
+            ))}
           </div>
         ))}
-        <Link to="/SingleImages/{id}"><button className='bg-black'>Hello WOrld</button></Link>
       </div>
-      
     </div>
-      
-    
-  </>
   );
 }
 

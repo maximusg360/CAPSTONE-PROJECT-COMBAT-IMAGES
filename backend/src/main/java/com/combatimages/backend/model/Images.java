@@ -20,9 +20,9 @@ public class Images {
     private String image_url;
     private String event_name;
 
-    @ManyToOne
-    @JoinColumn(name = "creator_id", nullable = false)
-    private MyAppUser creator;
+//    @ManyToOne
+//    @JoinColumn(name = "creator_id")
+//    private MyAppUser creator;
 
 
 
