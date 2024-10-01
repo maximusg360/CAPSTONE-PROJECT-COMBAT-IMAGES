@@ -40,10 +40,16 @@
   }
 
   .content h1 {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 900;
     margin-bottom: 1rem;
   }
+  .content p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  
 
 
 /* body {

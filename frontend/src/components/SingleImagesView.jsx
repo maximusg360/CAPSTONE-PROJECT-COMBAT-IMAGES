@@ -96,14 +96,14 @@ const SingleImagesView = () => {
       ) : (
         <>
           <Link to="/Gallery">
-            <div className="m-4 w-64 rounded overflow-hidden shadow-lg bg-white border-2 border-gray-300 p-4">
+            <div className="m-4 w-[900px] rounded overflow-hidden shadow-lg bg-white border-2 border-gray-300 p-4">
               <h1 className="font-bold text-xl mb-2 text-center">
                 {card.name}
               </h1>
               <img
                 src={card.image_url}
                 alt={card.name}
-                className="w-full h-48 object-cover mb-4"
+                className="w-[900px] h-[500px] object-cover mb-7"
               />
               <p className="text-gray-700 text-base">{card.description}</p>
             </div>
