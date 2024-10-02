@@ -96,7 +96,7 @@ const SingleImagesView = () => {
       ) : (
         <>
           <Link to="/Gallery">
-            <div className="m-4 w-[900px] rounded overflow-hidden shadow-lg bg-white border-2 border-gray-300 p-4">
+            <div className="m-4 w-[900px] rounded overflow-hidden shadow-lg bg-white border-2 border-gray-300 p-2">
               <h1 className="font-bold text-xl mb-2 text-center">
                 {card.name}
               </h1>

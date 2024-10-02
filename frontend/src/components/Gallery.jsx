@@ -29,9 +29,14 @@ function Gallery() {
   const chunkedData = chunkArray(myData, 3); // Group myData into sets of 4
 
   return (
-    <div className="container mx-auto p-4">
+    <div className=" mx-auto p-80"style={{
+      backgroundImage: "url('https://as2.ftcdn.net/v2/jpg/00/56/72/27/1000_F_56722733_RLjI3OnHV088iJ5bfIiuqZHBImBsRymi.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
       {/* <h1 className="text-4xl font-extrabold">Combat Images</h1> */}
-      <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
+      <div className="grid grid-cols-2 gap-10 md:grid-cols-3 ">
         
         {chunkedData.map((chunk, index) => (
           <div key={index} className="grid gap-4">
