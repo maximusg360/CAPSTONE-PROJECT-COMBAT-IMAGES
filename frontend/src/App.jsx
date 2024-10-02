@@ -12,6 +12,7 @@ import Header from "./components/Header";
 import Welcome from "./components/Welcome";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SingleImagesView from "./components/SingleImagesView";
+import EditCardForm from "./components/EditCardForm";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         {/* <Route path="/Pic" element={<Pic/>} /> */}
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/SingleImages/:id" element={<SingleImagesView />} />
+        <Route path="/Create" element={<EditCardForm />} />
       </Routes>
     </>
   );

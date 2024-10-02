@@ -23,7 +23,7 @@ export const getCards = async () => {
   export const createCard = async (card) => {
     console.log(card);
     try {
-      const response = await fetch("http://localhost:8080/test", {
+      const response = await fetch("http://localhost:8080/images/addImage", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { updateCard } from "./card";
+import { createCard, updateCard } from "./card";
 import axios from "axios";
 
 const EditCardForm = ({ card }) => {
@@ -12,16 +12,14 @@ const EditCardForm = ({ card }) => {
   const [eventName, setEventName] = useState(card?.event_name || "");
   const navigate = useNavigate();
 
-  useEffect(() => {
+  const handleSubmit = async (e) => {
+    console.log(e)
+    console.log(card);
     if (card) {
       setName(card.name);
       setDescription(card.description);
       setImageUrl(card.image_url);
-    }
-  }, [card]);
-
-  const handleEdit = async (e) => {
-    e.preventDefault();
+      e.preventDefault();
     // Update the card
     await axios.put(`http://localhost:8080/images/edit/${card.id}`, {
       name: name || card.name,
@@ -30,13 +28,42 @@ const EditCardForm = ({ card }) => {
       weight_class: weightClass || card.weight_class,
       event_name: eventName || card.event_name,
     });
-    window.location.reload();
-    // Navigate back to the home page or a desired page after editing
+    // window.location.reload();
+    }
+    else {
+      e.preventDefault()
+      const APIdata = await createCard({
+        name: name,
+        description: description,
+        image_url: imageUrl,
+        weight_class: weightClass,
+        event_name: eventName,
+      });
+      console.log(APIdata);
+      if (APIdata) {
+        //can use toastify here to alert user
+        navigate("/Gallery");
+      }
+    }
   };
 
+  // const handleEdit = async (e) => {
+  //   e.preventDefault();
+  //   // Update the card
+  //   await axios.put(`http://localhost:8080/images/edit/${card.id}`, {
+  //     name: name || card.name,
+  //     description: description || card.description,
+  //     image_url: imageUrl || card.image_url,
+  //     weight_class: weightClass || card.weight_class,
+  //     event_name: eventName || card.event_name,
+  //   });
+  //   window.location.reload();
+  //   // Navigate back to the home page or a desired page after editing
+  // };
+  // console.log(card);
   return (
     <div className="w-full max-w-xs mx-auto mt-5 p-2 shadow-md rounded-md bg-gray-800 text-white">
-      <form onSubmit={handleEdit}>
+      <form onSubmit={handleSubmit}>
         <label className="block text-gray-400 text-sm font-bold mb-2">
           Edit Event Name:
         </label>
@@ -94,7 +121,7 @@ const EditCardForm = ({ card }) => {
             type="submit"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-2 rounded"
           >
-            Update
+            {card ? "Update": "Create"}
           </button>
         </div>
       </form>

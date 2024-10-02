@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
+import EditCardForm from "./EditCardForm";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,7 +75,16 @@ function Header() {
                   onClick={closeMenu}
                 >
                   Gallery
-                </Link>
+                  </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/Create"
+                  className="nav-link p-1 m-24 text-white hover:text-gray-600"
+                  onClick={closeMenu}
+                >
+                  Create
+                  </Link>
               </li>
             </ul>
           </div>
