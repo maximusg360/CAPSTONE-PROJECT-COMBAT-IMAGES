@@ -17,9 +17,9 @@ function Header() {
   return (
     <>
       <header className=" bg-opacity-85 bg-black text-white">
-        <nav className="relative flex items -center  p-4">
-          <div className="container mx-auto flex justify-between items-center">
-            <div className="text-white text-2xl">Combat Images</div>
+        <nav className="relative flex items-center  p-4">
+          <div className="container  justify-between items-center">
+            <div className="text-white text-3xl font-extrabold h-14">Combat Images</div>
             <div className="md:hidden">
               <button
                 onClick={toggleMenu}
@@ -84,6 +84,15 @@ function Header() {
                   onClick={closeMenu}
                 >
                   Create
+                  </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/SignUp"
+                  className="nav-link p-1 m-24 text-white hover:text-gray-600"
+                  onClick={closeMenu}
+                >
+                  SignUp
                   </Link>
               </li>
             </ul>

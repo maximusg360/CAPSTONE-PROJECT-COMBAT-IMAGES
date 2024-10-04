@@ -13,6 +13,8 @@ import Welcome from "./components/Welcome";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SingleImagesView from "./components/SingleImagesView";
 import EditCardForm from "./components/EditCardForm";
+import SignUp from "./components/SignUp"
+import Login from "./components/Login"
 
 function App() {
   return (
@@ -31,9 +33,13 @@ function App() {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/SingleImages/:id" element={<SingleImagesView />} />
         <Route path="/Create" element={<EditCardForm />} />
-      </Routes>
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Login" element={<Login />} />
+       
+          </Routes>
     </>
   );
 }
 
 export default App;
+

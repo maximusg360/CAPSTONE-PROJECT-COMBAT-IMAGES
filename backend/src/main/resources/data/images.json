@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Image name 1",
-    "description": "Conor Mcgregor as he makes his entrance",
-    "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727655420/IMG_2763_sj8itj.jpg",
-    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "name": "Miguel Cotto vs Shane Mosley",
+    "description": "In a scintillating bout before a raucous crowd at Madison Square Garden in New York City, WBA welterweight champion Miguel Cotto retained his title with a unanimous decision over a very tough and spirited Sugar Shane Mosley.",
+    "weight_class": 147,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976146/IMG_7615_jzux2r.jpg",
+    "event_name": "Miguel Cotto vs Shane Mosley",
     "creator": {
       "id": 1,
       "username": "user1",
@@ -23,10 +23,10 @@
   },
   {
     "id": 2,
-    "name": "Image name 2",
-    "description": "Floyd Mayweather as he makes his entrance ",
+    "name": "Joe Calzaghe vs. Roy Jones Jr",
+    "description": "Joe Calzaghe vs. Roy Jones Jr., billed as Battle of the Superpowers, was a professional boxing match contested on November 8, 2008, for the Ring Light heavyweight championship",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/2_yln2so.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976142/IMG_5335_dc8cgc.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 2,
@@ -45,11 +45,11 @@
   },
   {
     "id": 3,
-    "name": "Image name 3",
-    "description": "Description for images 3",
-    "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/5_cld4mq.jpg",
-    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "name": "Chad Dawson vs Glen Johnson",
+    "description": "Chad Dawson scored a unanimous decision in his rematch with Glen Johnson at the XL Center in Hartford, Conn. on Saturday.\n\nDawson (28-0, 17 knockouts), who won by scores of 115-113 (twice) and a more accurate 117-111",
+    "weight_class": 176,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976142/IMG_0915_r7fzkr.jpg",
+    "event_name": "Chad Dawson vs Glen Johnson",
     "creator": {
       "id": 3,
       "username": "user3",
@@ -67,11 +67,11 @@
   },
   {
     "id": 4,
-    "name": "Image name 4",
-    "description": "Description for images 4",
+    "name": "Gabriel Bracero vs Julius Edmonds ",
+    "description": "Gabriel Bracero vs Julius Edmonds",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/3_yrbfw9.jpg",
-    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976142/BRACERO_27_y2m0ho.jpg",
+    "event_name": "Gabriel Bracero vs Julius Edmonds",
     "creator": {
       "id": 4,
       "username": "user4",
@@ -92,7 +92,7 @@
     "name": "Image name 5",
     "description": "Description for images 5",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/6_yuemeb.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976149/SHOWDOWN_4_egpmk9.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 5,
@@ -111,10 +111,10 @@
   },
   {
     "id": 6,
-    "name": "Image name 6",
-    "description": "Description for images 6",
-    "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
+    "name": "Miguel Cotto vs Shane Mosley",
+    "description": "In a scintillating bout before a raucous crowd at Madison Square Garden in New York City, WBA welterweight champion Miguel Cotto retained his title with a unanimous decision over a very tough and spirited Sugar Shane Mosley.",
+    "weight_class": 147,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976146/IMG_7488_ymv8de.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 6,
@@ -136,7 +136,7 @@
     "name": "Image name 7",
     "description": "Description for images 7",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/7_lpoxbz.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727976142/IMG_0812_asfoaz.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 1,
@@ -158,7 +158,7 @@
     "name": "Image name 8",
     "description": "Description for images 8",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364025/15_jydydw.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1728000627/IMG_1034_t1euff.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 8,
@@ -180,7 +180,7 @@
     "name": "Image name 9",
     "description": "Description for images 9",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1728000531/IMG_0107_gqkuyn.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 9,
@@ -202,10 +202,120 @@
     "name": "Image name 10",
     "description": "Description for images 10",
     "weight_class": 180,
-    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1728000526/COTTO_7_z1mrl5.jpg",
     "event_name": "Floyd Mayweather vs Conor Mcgregor",
     "creator": {
       "id": 10,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "enabled": true,
+      "roles": [
+        {
+          "id": 1,
+          "role": "ROLE_USER"
+        }
+
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Image name 10",
+    "description": "Description for images 10",
+    "weight_class": 180,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/2_yln2so.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "creator": {
+      "id": 11,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "enabled": true,
+      "roles": [
+        {
+          "id": 1,
+          "role": "ROLE_USER"
+        }
+
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Image name 10",
+    "description": "Description for images 10",
+    "weight_class": 180,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364021/1_svqxcn.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "creator": {
+      "id": 12,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "enabled": true,
+      "roles": [
+        {
+          "id": 1,
+          "role": "ROLE_USER"
+        }
+
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Image name 10",
+    "description": "Description for images 10",
+    "weight_class": 180,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/9_k0ksw6.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "creator": {
+      "id": 13,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "enabled": true,
+      "roles": [
+        {
+          "id": 1,
+          "role": "ROLE_USER"
+        }
+
+      ]
+    }
+  },
+  {
+  "id": 14,
+  "name": "Image name 10",
+  "description": "Description for images 10",
+  "weight_class": 147,
+  "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364022/3_yrbfw9.jpg",
+  "event_name": "Floyd Mayweather vs Conor Mcgregor",
+  "creator": {
+    "id": 14,
+    "username": "user1",
+    "password": "password1",
+    "email": "user1@example.com",
+    "enabled": true,
+    "roles": [
+      {
+        "id": 1,
+        "role": "ROLE_USER"
+      }
+
+    ]
+  }
+},
+  {
+    "id": 15,
+    "name": "Image name 10",
+    "description": "Description for images 10",
+    "weight_class": 147,
+    "image_url": "https://res.cloudinary.com/dmmcdahdl/image/upload/v1727364026/18_sgbje9.jpg",
+    "event_name": "Floyd Mayweather vs Conor Mcgregor",
+    "creator": {
+      "id": 15,
       "username": "user1",
       "password": "password1",
       "email": "user1@example.com",

@@ -4,34 +4,69 @@
 @tailwind utilities;
 
 
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-  
-  .content {
-    /* position: relative;
-    z-index: 1;
-    color: white;
-    text-align: left;
-    top: 50%;
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+}
 
-        transform: translate(-40%, +400%);
-    margin: o auto;
-    width: 100%; */
-    /* color: var(--text-color); */
+@media screen and (min-width: 480px) {
+.about-me-image {
+  max-width: 800px;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+}
+
+
+.about-me-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-me-container h1 {
+  
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+.about-me-container h2 {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-me-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-me-container {
+      padding: 15px;
+  }
+
+  .about-me-container h1 {
+      font-size: 2em;
+  }
+
+  .about-me-container h2 {
+      font-size: 1.5em;
+  }
+
+  .about-me-container p {
+      font-size: 1em;
+  }
+}
+
+   .content {
     font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 5%;
@@ -50,34 +85,3 @@
     margin-bottom: 2rem;
   }
   
-
-
-/* body {
-    background-image: url('https://www.si.com/.image/t_share/MTY4MTg5NDQzNzI0MDkzMzQx/ali-liston-2-cassiusjpg.jpg');
-    background-size: cover;
-}
- */
-
-
-/* body {
-    background: rgb(1,72,113);
-    background: linear-gradient(130deg, rgba(1,72,113,1) 0%, rgba(198,218,208,1) 100%);
-    font-family: "Inter", sans-serif;
-}
-
-span,
-.active {
-    @apply bg-gradient-to-b from-sky-200 to-blue-300 bg-clip-text font-bold text-transparent
-}
-
-.bg-primary-color {
-    @apply bg-gradient-to-br from-[#014871] to-[#c6dad0];
-}
-
-.active {
-    @apply font-bold ;
-}
-
-.gray-primary-color {
-    @apply bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent
-} */
