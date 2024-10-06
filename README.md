@@ -18,7 +18,7 @@
 - User authentication and registration with encrypted password storage.
 - Responsive design for optimal usability across devices.
  
-## Technologies Used
+## Technologies Used in the Frontend
  
 - **React**: A JavaScript library for building user interfaces using a component-based architecture.
 - **Tailwind CSS**: A utility-first CSS framework for rapid and responsive UI design.
@@ -26,19 +26,16 @@
 - **Context API**: For global state management across components, facilitating easy data sharing.
 - **Fetch API**: For making asynchronous HTTP requests to the back-end API.
  
--React: A JavaScript library for building user interfaces, enabling a component-based architecture for better maintainability and scalability.
--React Router: For client-side routing, allowing users to navigate between different pages without reloading the entire application.
--Context API: For global state management, simplifying the sharing of state across components without the need for prop drilling.
--Tailwind CSS: A utility-first CSS framework for styling the application, enabling rapid UI development with a responsive design.
--JavaScript ES6: Utilizing modern JavaScript features for improved code quality and functionality.
--Fetch API: For making HTTP requests to retrieve plant data and interact with the backend server.
- 
-##FEATURES
- 
--User Authentication: Users can log in to their accounts to access personalized shopping experiences.
--Responsive Design: The application is fully responsive, providing an optimal experience across different devices (desktops, tablets, and mobile).
 
 
+## Technologies Used in the Backend
+
+- SpringBoot
+- Java
+- MySQL
+
+
+ 
 ## Folder Structure
  
 The project follows a well-organized folder structure to maintain clarity and ease of navigation. Below is an overview of the main directories and their purposes:
@@ -49,17 +46,22 @@ verdant-elegance/ ── public/                  # Main directory for public as
                  
                   ├── src/                     # Main source directory for the React application
                   ├── components/              # Reusable components 
-                  │   ├── About.js             # 
+                  │   ├── About.jsx            # About page
                   │   ├── card.js              # 
-                  │   ├── EditCardForm.js      # 
-                  │   ├── Gallery.js           # 
-                  │   ├── Header.js            # 
-                  │   ├── Home0.js             # 
-                  │   └── Login.js             # User login page
-                  ├── App.js                   # Main application component
-                  ├── index.js                 # Entry point for the React application
-                  └── ...                      # Additional files as needed
-                 
+                  │   ├── EditCardForm.jss     # EditCardForm
+                  │   ├── Gallery.jsx          # Gallery page
+                  │   ├── Header.jsx           # Header page
+                  │   ├── Home.jsx             # Home page
+                  │   ├── Login.jsx            # Login page
+                  │   ├── Navbar.jsx           #  
+                  │   ├── Routes.jsx           # Routes page
+                  │   ├── SignUp.jsx           # SignUp page
+                  │   ├── SingleImagesView.jsx # SingleImagesView page
+                  │   ├── Welcome.jsx          # Welcome page
+                  │   ├── App.jsx              # Main application component
+                  │   ├── index.css            # Entry point for the React application
+                  │   └── main.jsx             # User login page
+                  
                   └── ...                      # Other project files (e.g., package.json, README.md)
  
 
