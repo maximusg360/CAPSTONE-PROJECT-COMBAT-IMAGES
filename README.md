@@ -1,4 +1,4 @@
-# CombatImages
+   # CombatImages
  
 ## Project Overview
  
@@ -40,7 +40,7 @@
  
 The project follows a well-organized folder structure to maintain clarity and ease of navigation. Below is an overview of the main directories and their purposes:
  
-verdant-elegance/ ── public/                  # Main directory for public assets
+CombatImages/      ── public/                 # Main directory for public assets
                   ├── index.html              # Main HTML file for the React app
                   └── ...                     # Other static assets
                  
