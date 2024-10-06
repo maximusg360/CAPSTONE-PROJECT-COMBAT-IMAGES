@@ -9,9 +9,8 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
+  
  
 ## Features
  
