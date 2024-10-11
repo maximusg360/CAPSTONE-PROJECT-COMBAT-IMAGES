@@ -39,7 +39,7 @@ public class ImageController {
     }
 
     @PostMapping("/addImage")
-    Images createImages(@RequestBody Images images) {
+    public Images createImages(@RequestBody Images images) {
         return repo.save(images);
     }
 
