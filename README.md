@@ -1,24 +1,77 @@
-### FullStack Template
+   # CombatImages
+ 
+## Project Overview
+ 
+**CombatImages** A website that displays my work over a decade of experience capturing the intensity and emotion of the sport.My journey began as a dedicated fan, quickly evolving into a role where I could freeze those electrifying moments in time and share them with fellow enthusiasts and the wider boxing community.
+ 
+## Table of Contents
+ 
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+  
+ 
+## Features
+ 
+- User authentication and registration with encrypted password storage.
+- Responsive design for optimal usability across devices.
+ 
+## Technologies Used in the Frontend
+ 
+- **React**: A JavaScript library for building user interfaces using a component-based architecture.
+- **Tailwind CSS**: A utility-first CSS framework for rapid and responsive UI design.
+- **React Router**: A library for managing navigation and routing in a React application.
+- **Context API**: For global state management across components, facilitating easy data sharing.
+- **Fetch API**: For making asynchronous HTTP requests to the back-end API.
+ 
 
-This is a template for a fullstack application using React, Node.js, Spring, Spring Boot, MySQL Application. It is a simple application that allows users to create, read, update, and delete notes. The application is split into two parts: the client and the server. The client is a React application that allows users to interact with the application. The server is a Spring Boot application that handles requests from the client and interacts with the database.
 
-## Getting Started
+## Technologies Used in the Backend
 
-cd into your frontend folder and start to implement your tailwind set up from part 2. https://tailwindcss.com/docs/guides/vite
+- SpringBoot
+- Java
+- MySQL
 
-then run
 
-```bash
-npm install
-npm run dev
-```
+ 
+## Folder Structure
+ 
+The project follows a well-organized folder structure to maintain clarity and ease of navigation. Below is an overview of the main directories and their purposes:
+ 
+CombatImages/      ── public/                 # Main directory for public assets
+                  ├── index.html              # Main HTML file for the React app
+                  └── ...                     # Other static assets
+                 
+                  ├── src/                     # Main source directory for the React application
+                  ├── components/              # Reusable components 
+                  │   ├── About.jsx            # About page
+                  │   ├── card.js              # 
+                  │   ├── EditCardForm.jss     # EditCardForm
+                  │   ├── Gallery.jsx          # Gallery page
+                  │   ├── Header.jsx           # Header page
+                  │   ├── Home.jsx             # Home page
+                  │   ├── Login.jsx            # Login page
+                  │   ├── Navbar.jsx           #  
+                  │   ├── Routes.jsx           # Routes page
+                  │   ├── SignUp.jsx           # SignUp page
+                  │   ├── SingleImagesView.jsx # SingleImagesView page
+                  │   ├── Welcome.jsx          # Welcome page
+                  │   ├── App.jsx              # Main application component
+                  │   ├── index.css            # Entry point for the React application
+                  │   └── main.jsx             # User login page
+                  
+                  └── ...                      # Other project files (e.g., package.json, README.md)
+ 
 
-or
+Contributions
+ 
+1.Fork the repository.
+2.Create a feature branch.
+3.Make your changes.
+4.Commit your changes.
+5.Push to the branch.
+6.Open a pull request.
+ 
+ 
 
-```bash
-yarn install
-yarn dev
-```
-
-REMEMBER THIS IS A TEMPLATE, YOU CAN CHANGE THE FRONTEND TO WHATEVER YOU WANT.
-YOUR FLAVICON NAME AND TITLE WOULD NEED TO CHANGE AROUND YOUR APPLICATION.
